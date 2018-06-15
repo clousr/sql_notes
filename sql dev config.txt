@@ -1,0 +1,10 @@
+Do not use containerized database when installing
+
+New connection in sql developer
+connection type TNS
+choose orcl1 (database name)
+login as hr hr hr
+lock out
+cmd:
+sqlplus / as sysdba
+alter user hr identified by hr account unlock;
